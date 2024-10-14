@@ -35,6 +35,12 @@ Bookings
   - room
 ```
 
+```
+Services
+  - id
+  - name
+```
+
 ## API
 
 ```
