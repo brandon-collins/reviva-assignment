@@ -8,22 +8,32 @@ Goals
 - get some calendar proof of concept in place
 - have some models in place that look similar to:
 
+```
 User
   - id
   - name
   - group
   - createdAt
+```
+
+```
 Group (enum for now)
+```
+
+```
 Rooms
   - id
   - FK -> Services
   - FK -> Provider
+```
+
+```
 Bookings
   - id
   - appointment time
   - userid
   - room
-
+```
 
 ## API
 
